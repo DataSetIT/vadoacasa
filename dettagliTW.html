@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Progetto Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href="src/output.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-100 text-center p-8">
+
+<!-- Navbar -->
+    <nav aria-label="Breadcrumb">
+      <ol role="list" class="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <li>
+          <div class="flex items-center">
+            <a href="man.it" class="mr-2 text-sm font-medium text-black">Home</a>
+            <svg viewBox="0 0 16 20" width="16" height="20" fill="currentColor" aria-hidden="true" class="h-5 w-4 text-gray-300">
+              <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+            </svg>
+          </div>
+        </li>
+        <li>
+          <div class="flex items-center">
+            <a href="man.it" class="mr-2 text-sm font-medium text-red-400">Disponibilita</a>
+            <svg viewBox="0 0 16 20" width="16" height="20" fill="currentColor" aria-hidden="true" class="h-5 w-4 text-gray-300">
+              <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+            </svg>
+          </div>
+        </li>
+        <li>
+          <div class="flex items-center">
+            <a href="#" class="mr-2 text-sm font-medium text-gray-900">Prenota</a>
+            <svg viewBox="0 0 16 20" width="16" height="20" fill="currentColor" aria-hidden="true" class="h-5 w-4 text-gray-300">
+              <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+            </svg>
+          </div>
+        </li>
+
+        <li class="text-sm">
+          <a href="#" aria-current="page" class="font-medium text-gray-500 hover:text-gray-600">Contatti</a>
+        </li>
+      </ol>
+      
+    </nav>
+	 <!-- Fine Navbar -->
+
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="bg-white shadow-md rounded-lg overflow-x-auto">
+    <table class="min-w-full divide-y divide-gray-200">
+      <thead class="bg-blue-50">
+        <tr>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">&nbsp; Nome</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">&nbsp; Titolo</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">&nbsp; E-mail</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">&nbsp; Ruolo</th>
+          <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">&nbsp; Prenotazione</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200">
+        <tr>
+          <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Lisa Walton</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Sviluppatore front-end</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">lindsay.walton@example.com</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Membro</td>
+          <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+            <a href="#" class="text-indigo-500 hover:text-red-500">Prenota</a>			
+          </td>
+        </tr>
+		<tr> 
+			<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"> 
+			<a href="#" class="rounded-md bg-blue-200 px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-red-200
+			 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"> altro btn Prenota</td>
+		</tr>
+        <!-- Altri utenti -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+<div class="flex flex-col items-center gap-6 p-7 md:flex-row md:gap-15 rounded-2xl">
+  <div>
+    <img class="size-50 shadow-xl rounded-md" alt="" src="img/balbiano.jpg" />
+  </div>
+  <div class="flex items-center md:items-start">
+    <span class="text-2xl font-medium">Class Warfare</span>
+    <span class="font-medium text-sky-500">The Anti-Patterns</span>
+    <span class="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
+      <span>No. 4</span>
+      <span>·</span>
+      <span>2025</span>
+    </span>
+  </div>
+</div>
+
+<div class="flex flex-col items-center gap-5 p-1 md:flex-row md:gap-5 rounded-2xl">
+  <div>
+    <img class="size-48 shadow-xl rounded-md" alt="" src="img/balbiano1.jpg" />
+  </div>
+  <div class="flex  items-center  md:items-start">
+    <span class="text-2xl font-medium">Class Warfare</span>
+    <span class="font-medium text-sky-500">&nbsp; The Anti-Patterns</span>
+    <span class="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
+      <span>&nbsp; No. 4</span>
+      <span>·</span>
+      <span>2025</span>
+    </span>
+  </div>
+</div>
+
+<div class="flex flex-col items-center p-1  rounded-2xl">
+  <div>
+    <img class="size-48 shadow-xl rounded-md" alt="" src="img/balbiano.jpg" />
+  </div>
+  <div class="flex  items-center  md:items-start">
+    <span class="text-2xl font-medium">Class Warfare </span>
+    <span class="font-medium text-sky-500">&nbsp; The Anti-Patterns </span>
+    <span class="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
+      <span>&nbsp; No. 4</span>
+      <span>·</span>
+      <span>2025</span>
+    </span>
+  </div>
+</div>
+
+</body>
+</html>
